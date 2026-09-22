@@ -240,14 +240,8 @@ a {
   padding-left: 22px;
 }
 
-.codigo-ejemplo {
-  background-color: #1f2933;
-  color: white;
-  padding: 15px;
-  margin-top: 12px;
-  font-family: Consolas, monospace;
-  white-space: pre-wrap;
-}
+
+
 
 .volver {
   display: inline-block;
