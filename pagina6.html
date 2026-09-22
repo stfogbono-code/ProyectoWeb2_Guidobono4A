@@ -2,14 +2,13 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Arduino</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header class="encabezado">
-    <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Logo" width="38"> </div>
-    <nav class="menu">
+  <div class="encabezado">
+    <div class="logo"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vscode/vscode-original.svg" alt="Logo" width="38"></div>
+    <div class="menu">
       <a href="index.html">Inicio</a>
       <a href="pagina1.html">Python</a>
       <a href="pagina2.html">JavaScript</a>
@@ -17,38 +16,36 @@
       <a href="pagina4.html">PHP</a>
       <a href="pagina5.html">C++</a>
       <a href="pagina6.html">Arduino</a>
-    </nav>
-  </header>
+    </div>
+  </div>
 
-  <main class="pagina">
-    <section class="hero-pagina">
+  <div class="pagina">
+    <div class="hero-pagina">
       <h1>Arduino</h1>
       <p>Arduino es una plataforma electrónica que permite crear proyectos combinando programación y componentes como luces, sensores y motores.</p>
-    </section>
+    </div>
 
-    <section class="contenido-pagina">
-      <article class="tarjeta-info">
+    <div class="contenido-pagina">
+      <div class="tarjeta-info">
         <h2>Historia y características</h2>
         <p>La plataforma Arduino apareció a mediados de la década del 2000 con la idea de facilitar el aprendizaje de electrónica y programación. Para programar sus placas se utiliza principalmente un lenguaje basado en C y C++.</p>
-      </article>
+      </div>
 
-      <article class="tarjeta-info">
+      <div class="tarjeta-info">
         <h2>¿Para qué se usa?</h2>
         <p>Se usa para controlar luces LED, motores, sensores de temperatura, robots, alarmas, sistemas automáticos y muchos proyectos escolares y caseros.</p>
-      </article>
+      </div>
 
-      <article class="tarjeta-info">
-        <h2>Ejemplo</h2>
-        <div class="codigo-ejemplo">void setup() {\n    pinMode(13, OUTPUT);\n}\n\nvoid loop() {\n    digitalWrite(13, HIGH);\n    delay(1000);\n    digitalWrite(13, LOW);\n    delay(1000);\n}</div>
-      </article>
+      <div class="tarjeta-info">
+        <h2>Ejemplo sencillo</h2>
+        <div class="codigo-ejemplo">digitalWrite(13, HIGH);</div>
+      </div>
 
-      <article class="tarjeta-info">
+      <div class="tarjeta-info">
         <h2>Dato interesante</h2>
         <p>Arduino no es un lenguaje de programación por sí solo: es una plataforma formada por una placa electrónica, un entorno de programación y herramientas para crear proyectos.</p>
-      </article>
-    </section>
+      </div>
+    </div>
 
-
-  </main>
 </body>
 </html>
