@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f4f6f8;
+  background-color: #fefcfc;
   color: #1f2933;
   padding: 20px;
 }
@@ -21,13 +21,13 @@ a {
   align-items: center;
   gap: 20px;
   flex-wrap: wrap;
-  background-color: #1f3c5c;
+  background-color: #fdfdfd;
   padding: 18px;
   margin-bottom: 20px;
 }
 
 .logo {
-  background-color: #f4b942;
+  background-color:white;
   color: #1f2933;
   padding: 12px 18px;
   font-weight: bold;
@@ -43,7 +43,7 @@ a {
 
 .menu a {
   color: white;
-  background-color: #2f5578;
+  background-color: #567ea2;
   padding: 9px 12px;
 }
 
